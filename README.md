@@ -18,6 +18,7 @@ learn [EC2 Image Builder](https://docs.aws.amazon.com/imagebuilder/latest/usergu
 4. select amazon provided tests or specify own custom tests
 5. specify build schedule - manual, schedule builder, CRON 
 6. specify which regions to publish the resulting ami to
+7. can be shared with account, organization ou, whole organization
 
 ---
 
