@@ -1,0 +1,244 @@
+2022-05-25T14:01:45.914489412Z Setup: STARTED SETUP
+2022-05-25T14:01:45.914682119Z Debug Setup: Currently validating document hello-world-linux.yml
+2022-05-25T14:01:45.914708120Z Debug Setup: Source type: Default
+2022-05-25T14:01:45.914716320Z Debug Setup: New destination path for document hello-world-linux.yml - TOE_2022-05-25_14-01-45_UTC-0_3699d6f5-dc33-11ec-9989-00224820200b/D0__hello-world-linux.yml
+2022-05-25T14:01:45.914720620Z Debug Setup: STARTED DOWNLOADING DOCUMENT hello-world-linux.yml
+2022-05-25T14:01:45.914727921Z Setup: Document hello-world-linux.yml is a local path
+2022-05-25T14:01:45.914735221Z Debug Setup: STARTED COPYING DOCUMENT
+2022-05-25T14:01:45.914739721Z Debug Setup: Copying hello-world-linux.yml to TOE_2022-05-25_14-01-45_UTC-0_3699d6f5-dc33-11ec-9989-00224820200b/D0__hello-world-linux.yml
+2022-05-25T14:01:45.914807224Z Debug Setup: Successfully copied hello-world-linux.yml to TOE_2022-05-25_14-01-45_UTC-0_3699d6f5-dc33-11ec-9989-00224820200b/D0__hello-world-linux.yml
+2022-05-25T14:01:45.914813424Z Debug Setup: FINISHED COPYING DOCUMENT
+2022-05-25T14:01:45.914822224Z Debug Setup: FINISHED DOWNLOADING DOCUMENT hello-world-linux.yml
+2022-05-25T14:01:45.914826624Z Debug Setup: Checking for cycles and nesting limits
+2022-05-25T14:01:45.914858726Z Debug Setup: STARTED PARSING DOCUMENT TOE_2022-05-25_14-01-45_UTC-0_3699d6f5-dc33-11ec-9989-00224820200b/D0__hello-world-linux.yml
+2022-05-25T14:01:45.915025632Z Debug Setup: FINISHED PARSING DOCUMENT TOE_2022-05-25_14-01-45_UTC-0_3699d6f5-dc33-11ec-9989-00224820200b/D0__hello-world-linux.yml
+2022-05-25T14:01:45.915040933Z Debug Setup: STARTED VALIDATING DOCUMENT TOE_2022-05-25_14-01-45_UTC-0_3699d6f5-dc33-11ec-9989-00224820200b/D0__hello-world-linux.yml
+2022-05-25T14:01:45.915168537Z Debug Setup: FINISHED VALIDATING DOCUMENT TOE_2022-05-25_14-01-45_UTC-0_3699d6f5-dc33-11ec-9989-00224820200b/D0__hello-world-linux.yml
+2022-05-25T14:01:45.915184938Z Debug Setup: STARTED DOCUMENT CONVERSION
+2022-05-25T14:01:45.915304342Z Debug Setup: FINISHED DOCUMENT CONVERSION
+2022-05-25T14:01:45.915318443Z Debug Setup: STARTED DOCUMENT VALIDATION FOR PARAMETERS
+2022-05-25T14:01:45.915329843Z Debug Setup: FINISHED DOCUMENT VALIDATION FOR PARAMETERS
+2022-05-25T14:01:45.915333744Z Debug Setup: STARTED DOCUMENT VALIDATION FOR CHAINING
+2022-05-25T14:01:45.915440548Z Debug Setup: FINISHED DOCUMENT VALIDATION FOR CHAINING
+2022-05-25T14:01:45.915454748Z Debug Setup: STARTED CREATION OF TOE FILES
+2022-05-25T14:01:45.915461248Z Debug Setup: Creating chaining.json at TOE_2022-05-25_14-01-45_UTC-0_3699d6f5-dc33-11ec-9989-00224820200b
+2022-05-25T14:01:45.915512550Z Debug Chaining: Generated chaining reference
+2022-05-25T14:01:45.915518050Z Debug Chaining: Initializing...
+2022-05-25T14:01:45.915588553Z Debug Chaining: Initialized chaining!
+2022-05-25T14:01:45.915601854Z Debug Chaining: Created chaining file at TOE_2022-05-25_14-01-45_UTC-0_3699d6f5-dc33-11ec-9989-00224820200b/chaining.json
+2022-05-25T14:01:45.915689857Z Debug Updated chaining file at TOE_2022-05-25_14-01-45_UTC-0_3699d6f5-dc33-11ec-9989-00224820200b/chaining.json
+2022-05-25T14:01:45.915695257Z Debug Setup: Creating detailedoutput.json at TOE_2022-05-25_14-01-45_UTC-0_3699d6f5-dc33-11ec-9989-00224820200b
+2022-05-25T14:01:45.915736559Z Debug Created detailed output file at TOE_2022-05-25_14-01-45_UTC-0_3699d6f5-dc33-11ec-9989-00224820200b/detailedoutput.json
+2022-05-25T14:01:45.915890165Z Debug Initialized detailed output file at TOE_2022-05-25_14-01-45_UTC-0_3699d6f5-dc33-11ec-9989-00224820200b/detailedoutput.json
+2022-05-25T14:01:45.915897865Z Debug Setup: Successfully created chaining.json and detailedoutput.json at TOE_2022-05-25_14-01-45_UTC-0_3699d6f5-dc33-11ec-9989-00224820200b
+2022-05-25T14:01:45.915909565Z Debug Setup: FINISHED CREATION OF TOE FILES
+2022-05-25T14:01:45.915915465Z Debug Setup: FINISHED SETUP
+2022-05-25T14:01:45.915921866Z Debug CLI run: Setup has been completed!
+2022-05-25T14:01:45.915934066Z Debug CLI run: Attempting to create a folder in customer's S3 account. logS3Bucket=, logS3Key=, logS3BucketOwner=
+2022-05-25T14:01:45.915957067Z Debug Utils: UploadDirectoryToS3 sourceDir = TOE_2022-05-25_14-01-45_UTC-0_3699d6f5-dc33-11ec-9989-00224820200b, bucket = , key = TOE_2022-05-25_14-01-45_UTC-0_3699d6f5-dc33-11ec-9989-00224820200b
+2022-05-25T14:01:45.915969868Z Debug Utils: Skipped uploading logs to S3.
+2022-05-25T14:01:45.915976368Z Debug CLI run: Successfully created a folder in customer's S3 account!
+2022-05-25T14:01:45.915995868Z Debug CLI run: CLI arguments cliDocumentsString=[hello-world-linux.yml], phases=[], executionId=3699d6f5-dc33-11ec-9989-00224820200b, logDir=, logS3Bucket=, logS3Key=
+2022-05-25T14:01:45.916012269Z Debug CLI run: Passing control to Executor to execute documents
+2022-05-25T14:01:45.916026670Z Debug Executor: STARTED EXECUTION OF ALL DOCUMENTS
+2022-05-25T14:01:45.916034870Z Debug Executor: Initializing Executor...
+2022-05-25T14:01:45.916049971Z Debug Executor: Initialized executor!
+2022-05-25T14:01:45.916063671Z Debug Executor: Retrieved current step
+2022-05-25T14:01:45.916070871Z Debug Executor: executionLevelExitCode before commencement - 0
+2022-05-25T14:01:45.916219977Z Debug Updated detailed output file at TOE_2022-05-25_14-01-45_UTC-0_3699d6f5-dc33-11ec-9989-00224820200b/detailedoutput.json
+2022-05-25T14:01:45.916234077Z Debug Executor: Commencing execution of given documents...
+2022-05-25T14:01:45.916252378Z Debug Executor: Proceeding with TOE execution as per given state: Document = 0, PhaseIndex = 0, StepIndex = 0, isFinalExecutionStatusFailed = false, isFinalDocumentStatusFailed = false, isFinalPhaseStatusFailed = false
+2022-05-25T14:01:45.916261078Z Debug Executor: Currently running document hello-world-linux.yml with phaseIndex 0 and stepIndex 0
+2022-05-25T14:01:45.916273879Z Debug Executor: STARTED EXECUTION OF DOCUMENT hello-world-linux.yml
+2022-05-25T14:01:45.916280679Z Document hello-world-linux.yml
+2022-05-25T14:01:45.916294780Z Debug Executor: Starting point of document execution: Document - hello-world-linux.yml, FromPhaseIndex - 0, FromStepIndex - 0
+2022-05-25T14:01:45.916301380Z Debug Executor: documentLevelExitCode before commencement - 0
+2022-05-25T14:01:45.916379983Z Debug Updated detailed output file at TOE_2022-05-25_14-01-45_UTC-0_3699d6f5-dc33-11ec-9989-00224820200b/detailedoutput.json
+2022-05-25T14:01:45.916393783Z Debug Executor: Commencing execution of document hello-world-linux.yml...
+2022-05-25T14:01:45.916401284Z Debug Executor: STARTED PHASE build IN DOCUMENT hello-world-linux.yml
+2022-05-25T14:01:45.916417084Z Phase build
+2022-05-25T14:01:45.916436385Z Debug Executor: Starting point of phase execution: DocumentIndex - hello-world-linux.yml, phaseName - build, FromStepIndex - 0
+2022-05-25T14:01:45.916451786Z Debug Executor: phaseLevelExitCode before commencement - 0
+2022-05-25T14:01:45.916527589Z Debug Updated detailed output file at TOE_2022-05-25_14-01-45_UTC-0_3699d6f5-dc33-11ec-9989-00224820200b/detailedoutput.json
+2022-05-25T14:01:45.916544789Z Debug Executor: Commencing execution of phase build...
+2022-05-25T14:01:45.916557990Z Debug Executor: STARTED STEP HelloWorldStep in PHASE build
+2022-05-25T14:01:45.916566790Z Debug Executor: Initializing current step attempt count with 1 in the state utils for step HelloWorldStep
+2022-05-25T14:01:45.916722896Z Step HelloWorldStep
+2022-05-25T14:01:45.916759597Z Debug Executor: Starting point of step execution: Step - HelloWorldStep
+2022-05-25T14:01:45.916766198Z Debug Executor: Before resolving parameter inputs [{"commands":["echo 'Hello World from the build phase.'"]}] of step HelloWorldStep.
+2022-05-25T14:01:45.916779598Z Debug Executor: Before unchaining inputs [{"commands":["echo 'Hello World from the build phase.'"]}] of step HelloWorldStep...
+2022-05-25T14:01:45.916789498Z Debug Chaining: STARTED PROCESS FOR UNCHAINING
+2022-05-25T14:01:45.916798999Z Debug Chaining: FINISHED PROCESS FOR UNCHAINING
+2022-05-25T14:01:45.916808199Z Debug Executor: after unchaining inputs [{"commands":["echo 'Hello World from the build phase.'"]}] of step HelloWorldStep...
+2022-05-25T14:01:45.916816999Z Debug Executor: After unchaining, before resolving parameter inputs [{"commands":["echo 'Hello World from the build phase.'"]}] of step HelloWorldStep.
+2022-05-25T14:01:45.916826300Z Debug Executor: After parameter resolve inputs [{"commands":["echo 'Hello World from the build phase.'"]}] of step HelloWorldStep.
+2022-05-25T14:01:45.916880002Z Debug Updated detailed output file at TOE_2022-05-25_14-01-45_UTC-0_3699d6f5-dc33-11ec-9989-00224820200b/detailedoutput.json
+2022-05-25T14:01:45.916925804Z Debug Updated chaining file at TOE_2022-05-25_14-01-45_UTC-0_3699d6f5-dc33-11ec-9989-00224820200b/chaining.json
+2022-05-25T14:01:45.916932504Z Debug Executor: Updated inputs of currentStep HelloWorldStep to [{"commands":["echo 'Hello World from the build phase.'"]}]
+2022-05-25T14:01:45.916944804Z Debug Executor: Currently running: Step HelloWorldStep
+2022-05-25T14:01:45.916957405Z Debug Executor: STARTED ACTION MODULE
+2022-05-25T14:01:45.916964405Z Debug Executor: MaxAttempts set to 1
+2022-05-25T14:01:45.916971005Z Debug Executor: Timeout set to 7200 seconds
+2022-05-25T14:01:45.916988506Z Debug Executor: Attempt 1/1
+2022-05-25T14:01:45.917020907Z Debug Executor: Execution deadline set to 2022-05-25 16:01:45.916995106 +0000 UTC m=+7200.006277137
+2022-05-25T14:01:45.917037208Z Debug Executor: Commencing non-iterative execution of step HelloWorldStep
+2022-05-25T14:01:45.917060609Z Debug Executor: Executing step's inputs
+2022-05-25T14:01:45.917080709Z ExecuteBash: STARTED EXECUTION
+2022-05-25T14:01:45.917157012Z ExecuteBash: Created temporary directory: /tmp/AWSTOE1638342889
+2022-05-25T14:01:45.917198014Z ExecuteBash: Created temporary script file at: /tmp/AWSTOE1638342889/script-271901008.sh
+2022-05-25T14:01:45.917235715Z CmdExecution: Preparing object for command bash with arguments [/tmp/AWSTOE1638342889/script-271901008.sh]
+2022-05-25T14:01:45.917344419Z CmdExecution: Starting execution of command with arguments [bash /tmp/AWSTOE1638342889/script-271901008.sh]
+2022-05-25T14:01:45.919264292Z Stdout: Hello World from the build phase.
+2022-05-25T14:01:45.919402597Z CmdExecution: Terminating read operation on STDOUT pipe - EOF
+2022-05-25T14:01:45.919461699Z CmdExecution: Command execution has been completed
+2022-05-25T14:01:45.919483700Z CmdExecution: Command execution was completed successfully
+2022-05-25T14:01:45.919492100Z CmdExecution: Stderr: 
+2022-05-25T14:01:45.919506401Z CmdExecution: ExitCode 0
+2022-05-25T14:01:45.919514701Z ExecuteBash: Removing temporary directory: /tmp/AWSTOE1638342889
+2022-05-25T14:01:45.919616205Z ExecuteBash: Successfully removed temporary directory: /tmp/AWSTOE1638342889
+2022-05-25T14:01:45.919635106Z ExecuteBash: FINISHED EXECUTION
+2022-05-25T14:01:45.919650006Z Debug Executor: Finished executing step's inputs
+2022-05-25T14:01:45.919657806Z Debug Executor: Consolidating outputs of step HelloWorldStep
+2022-05-25T14:01:45.919702608Z Debug Executor: Not going to execute step HelloWorldStep again as final exit code is 0
+2022-05-25T14:01:45.919717709Z Debug Executor: FINISHED ACTION MODULE
+2022-05-25T14:01:45.919729609Z Debug Executor: Step results - Results [{"stdout":"Hello World from the build phase."}], Exit code 0, Error <nil>
+2022-05-25T14:01:45.919822713Z Debug Updated chaining file at TOE_2022-05-25_14-01-45_UTC-0_3699d6f5-dc33-11ec-9989-00224820200b/chaining.json
+2022-05-25T14:01:45.919827913Z Debug Executor: Updated outputs of currentStep to [{"stdout":"Hello World from the build phase."}]
+2022-05-25T14:01:45.919838813Z Debug Executor: BEFORE UPDATING DETAILEDOUTPUT.JSON - [{"stdout":"Hello World from the build phase."}]
+2022-05-25T14:01:45.919923016Z Debug Updated detailed output file at TOE_2022-05-25_14-01-45_UTC-0_3699d6f5-dc33-11ec-9989-00224820200b/detailedoutput.json
+2022-05-25T14:01:45.919931717Z Debug Executor: Returning success code from step HelloWorldStep
+2022-05-25T14:01:45.919936317Z Debug Executor: FINISHED STEP HelloWorldStep in PHASE build
+2022-05-25T14:01:45.947989474Z Debug Executor: Received exit code Success from step HelloWorldStep
+2022-05-25T14:01:45.948048076Z Debug Executor: Completed phase build
+2022-05-25T14:01:45.948161880Z Debug Updated detailed output file at TOE_2022-05-25_14-01-45_UTC-0_3699d6f5-dc33-11ec-9989-00224820200b/detailedoutput.json
+2022-05-25T14:01:45.948171181Z Debug Executor: FINISHED PHASE build IN DOCUMENT hello-world-linux.yml with final phaseLevelExitCode 0
+2022-05-25T14:01:45.963942375Z Debug Executor: Received exit code Success from phase build
+2022-05-25T14:01:45.963999777Z Debug Executor: STARTED PHASE validate IN DOCUMENT hello-world-linux.yml
+2022-05-25T14:01:45.964008277Z Phase validate
+2022-05-25T14:01:45.964023478Z Debug Executor: Starting point of phase execution: DocumentIndex - hello-world-linux.yml, phaseName - validate, FromStepIndex - 0
+2022-05-25T14:01:45.964030478Z Debug Executor: phaseLevelExitCode before commencement - 0
+2022-05-25T14:01:45.964171583Z Debug Updated detailed output file at TOE_2022-05-25_14-01-45_UTC-0_3699d6f5-dc33-11ec-9989-00224820200b/detailedoutput.json
+2022-05-25T14:01:45.964187384Z Debug Executor: Commencing execution of phase validate...
+2022-05-25T14:01:45.964195384Z Debug Executor: STARTED STEP HelloWorldStep in PHASE validate
+2022-05-25T14:01:45.964204485Z Debug Executor: Initializing current step attempt count with 1 in the state utils for step HelloWorldStep
+2022-05-25T14:01:45.964425593Z Step HelloWorldStep
+2022-05-25T14:01:45.964517596Z Debug Executor: Starting point of step execution: Step - HelloWorldStep
+2022-05-25T14:01:45.964559298Z Debug Executor: Before resolving parameter inputs [{"commands":["echo 'Hello World from the validate phase.'"]}] of step HelloWorldStep.
+2022-05-25T14:01:45.964621900Z Debug Executor: Before unchaining inputs [{"commands":["echo 'Hello World from the validate phase.'"]}] of step HelloWorldStep...
+2022-05-25T14:01:45.964666902Z Debug Chaining: STARTED PROCESS FOR UNCHAINING
+2022-05-25T14:01:45.964726204Z Debug Chaining: FINISHED PROCESS FOR UNCHAINING
+2022-05-25T14:01:45.964761506Z Debug Executor: after unchaining inputs [{"commands":["echo 'Hello World from the validate phase.'"]}] of step HelloWorldStep...
+2022-05-25T14:01:45.964781006Z Debug Executor: After unchaining, before resolving parameter inputs [{"commands":["echo 'Hello World from the validate phase.'"]}] of step HelloWorldStep.
+2022-05-25T14:01:45.964792507Z Debug Executor: After parameter resolve inputs [{"commands":["echo 'Hello World from the validate phase.'"]}] of step HelloWorldStep.
+2022-05-25T14:01:45.964893610Z Debug Updated detailed output file at TOE_2022-05-25_14-01-45_UTC-0_3699d6f5-dc33-11ec-9989-00224820200b/detailedoutput.json
+2022-05-25T14:01:45.964958013Z Debug Updated chaining file at TOE_2022-05-25_14-01-45_UTC-0_3699d6f5-dc33-11ec-9989-00224820200b/chaining.json
+2022-05-25T14:01:45.964966813Z Debug Executor: Updated inputs of currentStep HelloWorldStep to [{"commands":["echo 'Hello World from the validate phase.'"]}]
+2022-05-25T14:01:45.964973914Z Debug Executor: Currently running: Step HelloWorldStep
+2022-05-25T14:01:45.964980214Z Debug Executor: STARTED ACTION MODULE
+2022-05-25T14:01:45.964987414Z Debug Executor: MaxAttempts set to 1
+2022-05-25T14:01:45.964994214Z Debug Executor: Timeout set to 7200 seconds
+2022-05-25T14:01:45.965001315Z Debug Executor: Attempt 1/1
+2022-05-25T14:01:45.965020415Z Debug Executor: Execution deadline set to 2022-05-25 16:01:45.965007315 +0000 UTC m=+7200.054289446
+2022-05-25T14:01:45.965035216Z Debug Executor: Commencing non-iterative execution of step HelloWorldStep
+2022-05-25T14:01:45.965056517Z Debug Executor: Executing step's inputs
+2022-05-25T14:01:45.965069317Z ExecuteBash: STARTED EXECUTION
+2022-05-25T14:01:45.965142220Z ExecuteBash: Created temporary directory: /tmp/AWSTOE4199907993
+2022-05-25T14:01:45.965186622Z ExecuteBash: Created temporary script file at: /tmp/AWSTOE4199907993/script-960168154.sh
+2022-05-25T14:01:45.965225323Z CmdExecution: Preparing object for command bash with arguments [/tmp/AWSTOE4199907993/script-960168154.sh]
+2022-05-25T14:01:45.965949750Z CmdExecution: Starting execution of command with arguments [bash /tmp/AWSTOE4199907993/script-960168154.sh]
+2022-05-25T14:01:45.967959426Z Stdout: Hello World from the validate phase.
+2022-05-25T14:01:45.968010728Z CmdExecution: Terminating read operation on STDOUT pipe - EOF
+2022-05-25T14:01:45.968099831Z CmdExecution: Command execution has been completed
+2022-05-25T14:01:45.968128332Z CmdExecution: Command execution was completed successfully
+2022-05-25T14:01:45.968140333Z CmdExecution: Stderr: 
+2022-05-25T14:01:45.968160134Z CmdExecution: ExitCode 0
+2022-05-25T14:01:45.968173334Z ExecuteBash: Removing temporary directory: /tmp/AWSTOE4199907993
+2022-05-25T14:01:45.968307639Z ExecuteBash: Successfully removed temporary directory: /tmp/AWSTOE4199907993
+2022-05-25T14:01:45.968338140Z ExecuteBash: FINISHED EXECUTION
+2022-05-25T14:01:45.968358941Z Debug Executor: Finished executing step's inputs
+2022-05-25T14:01:45.968371541Z Debug Executor: Consolidating outputs of step HelloWorldStep
+2022-05-25T14:01:45.968432044Z Debug Executor: Not going to execute step HelloWorldStep again as final exit code is 0
+2022-05-25T14:01:45.968450444Z Debug Executor: FINISHED ACTION MODULE
+2022-05-25T14:01:45.968461645Z Debug Executor: Step results - Results [{"stdout":"Hello World from the validate phase."}], Exit code 0, Error <nil>
+2022-05-25T14:01:45.968540348Z Debug Updated chaining file at TOE_2022-05-25_14-01-45_UTC-0_3699d6f5-dc33-11ec-9989-00224820200b/chaining.json
+2022-05-25T14:01:45.968548048Z Debug Executor: Updated outputs of currentStep to [{"stdout":"Hello World from the validate phase."}]
+2022-05-25T14:01:45.968556148Z Debug Executor: BEFORE UPDATING DETAILEDOUTPUT.JSON - [{"stdout":"Hello World from the validate phase."}]
+2022-05-25T14:01:45.968657552Z Debug Updated detailed output file at TOE_2022-05-25_14-01-45_UTC-0_3699d6f5-dc33-11ec-9989-00224820200b/detailedoutput.json
+2022-05-25T14:01:45.968665553Z Debug Executor: Returning success code from step HelloWorldStep
+2022-05-25T14:01:45.968672353Z Debug Executor: FINISHED STEP HelloWorldStep in PHASE validate
+2022-05-25T14:01:45.987181750Z Debug Executor: Received exit code Success from step HelloWorldStep
+2022-05-25T14:01:45.987236352Z Debug Executor: Completed phase validate
+2022-05-25T14:01:45.987367357Z Debug Updated detailed output file at TOE_2022-05-25_14-01-45_UTC-0_3699d6f5-dc33-11ec-9989-00224820200b/detailedoutput.json
+2022-05-25T14:01:45.987379458Z Debug Executor: FINISHED PHASE validate IN DOCUMENT hello-world-linux.yml with final phaseLevelExitCode 0
+2022-05-25T14:01:46.002705735Z Debug Executor: Received exit code Success from phase validate
+2022-05-25T14:01:46.002746136Z Debug Executor: STARTED PHASE test IN DOCUMENT hello-world-linux.yml
+2022-05-25T14:01:46.002752637Z Phase test
+2022-05-25T14:01:46.002764137Z Debug Executor: Starting point of phase execution: DocumentIndex - hello-world-linux.yml, phaseName - test, FromStepIndex - 0
+2022-05-25T14:01:46.002769037Z Debug Executor: phaseLevelExitCode before commencement - 0
+2022-05-25T14:01:46.002867541Z Debug Updated detailed output file at TOE_2022-05-25_14-01-45_UTC-0_3699d6f5-dc33-11ec-9989-00224820200b/detailedoutput.json
+2022-05-25T14:01:46.002881041Z Debug Executor: Commencing execution of phase test...
+2022-05-25T14:01:46.002888442Z Debug Executor: STARTED STEP HelloWorldStep in PHASE test
+2022-05-25T14:01:46.002897342Z Debug Executor: Initializing current step attempt count with 1 in the state utils for step HelloWorldStep
+2022-05-25T14:01:46.003043548Z Step HelloWorldStep
+2022-05-25T14:01:46.003082449Z Debug Executor: Starting point of step execution: Step - HelloWorldStep
+2022-05-25T14:01:46.003091049Z Debug Executor: Before resolving parameter inputs [{"commands":["echo 'Hello World from the test phase.'"]}] of step HelloWorldStep.
+2022-05-25T14:01:46.003115550Z Debug Executor: Before unchaining inputs [{"commands":["echo 'Hello World from the test phase.'"]}] of step HelloWorldStep...
+2022-05-25T14:01:46.003135151Z Debug Chaining: STARTED PROCESS FOR UNCHAINING
+2022-05-25T14:01:46.003160152Z Debug Chaining: FINISHED PROCESS FOR UNCHAINING
+2022-05-25T14:01:46.003176653Z Debug Executor: after unchaining inputs [{"commands":["echo 'Hello World from the test phase.'"]}] of step HelloWorldStep...
+2022-05-25T14:01:46.003199453Z Debug Executor: After unchaining, before resolving parameter inputs [{"commands":["echo 'Hello World from the test phase.'"]}] of step HelloWorldStep.
+2022-05-25T14:01:46.003214954Z Debug Executor: After parameter resolve inputs [{"commands":["echo 'Hello World from the test phase.'"]}] of step HelloWorldStep.
+2022-05-25T14:01:46.003305357Z Debug Updated detailed output file at TOE_2022-05-25_14-01-45_UTC-0_3699d6f5-dc33-11ec-9989-00224820200b/detailedoutput.json
+2022-05-25T14:01:46.003375660Z Debug Updated chaining file at TOE_2022-05-25_14-01-45_UTC-0_3699d6f5-dc33-11ec-9989-00224820200b/chaining.json
+2022-05-25T14:01:46.003384060Z Debug Executor: Updated inputs of currentStep HelloWorldStep to [{"commands":["echo 'Hello World from the test phase.'"]}]
+2022-05-25T14:01:46.003391061Z Debug Executor: Currently running: Step HelloWorldStep
+2022-05-25T14:01:46.003405961Z Debug Executor: STARTED ACTION MODULE
+2022-05-25T14:01:46.003413062Z Debug Executor: MaxAttempts set to 1
+2022-05-25T14:01:46.003419262Z Debug Executor: Timeout set to 7200 seconds
+2022-05-25T14:01:46.003426362Z Debug Executor: Attempt 1/1
+2022-05-25T14:01:46.003448663Z Debug Executor: Execution deadline set to 2022-05-25 16:01:46.003437962 +0000 UTC m=+7200.092719993
+2022-05-25T14:01:46.003460063Z Debug Executor: Commencing non-iterative execution of step HelloWorldStep
+2022-05-25T14:01:46.003485864Z Debug Executor: Executing step's inputs
+2022-05-25T14:01:46.003500265Z ExecuteBash: STARTED EXECUTION
+2022-05-25T14:01:46.003571767Z ExecuteBash: Created temporary directory: /tmp/AWSTOE332682019
+2022-05-25T14:01:46.003615469Z ExecuteBash: Created temporary script file at: /tmp/AWSTOE332682019/script-2970998733.sh
+2022-05-25T14:01:46.003665371Z CmdExecution: Preparing object for command bash with arguments [/tmp/AWSTOE332682019/script-2970998733.sh]
+2022-05-25T14:01:46.003773475Z CmdExecution: Starting execution of command with arguments [bash /tmp/AWSTOE332682019/script-2970998733.sh]
+2022-05-25T14:01:46.010573831Z Stdout: Hello World from the test phase.
+2022-05-25T14:01:46.010740738Z CmdExecution: Terminating read operation on STDOUT pipe - EOF
+2022-05-25T14:01:46.010823841Z CmdExecution: Command execution has been completed
+2022-05-25T14:01:46.010850642Z CmdExecution: Command execution was completed successfully
+2022-05-25T14:01:46.010863142Z CmdExecution: Stderr: 
+2022-05-25T14:01:46.010885743Z CmdExecution: ExitCode 0
+2022-05-25T14:01:46.010899244Z ExecuteBash: Removing temporary directory: /tmp/AWSTOE332682019
+2022-05-25T14:01:46.011052649Z ExecuteBash: Successfully removed temporary directory: /tmp/AWSTOE332682019
+2022-05-25T14:01:46.011088151Z ExecuteBash: FINISHED EXECUTION
+2022-05-25T14:01:46.011099351Z Debug Executor: Finished executing step's inputs
+2022-05-25T14:01:46.011109151Z Debug Executor: Consolidating outputs of step HelloWorldStep
+2022-05-25T14:01:46.011147953Z Debug Executor: Not going to execute step HelloWorldStep again as final exit code is 0
+2022-05-25T14:01:46.011179754Z Debug Executor: FINISHED ACTION MODULE
+2022-05-25T14:01:46.011191555Z Debug Executor: Step results - Results [{"stdout":"Hello World from the test phase."}], Exit code 0, Error <nil>
+2022-05-25T14:01:46.011289858Z Debug Updated chaining file at TOE_2022-05-25_14-01-45_UTC-0_3699d6f5-dc33-11ec-9989-00224820200b/chaining.json
+2022-05-25T14:01:46.011304759Z Debug Executor: Updated outputs of currentStep to [{"stdout":"Hello World from the test phase."}]
+2022-05-25T14:01:46.011330660Z Debug Executor: BEFORE UPDATING DETAILEDOUTPUT.JSON - [{"stdout":"Hello World from the test phase."}]
+2022-05-25T14:01:46.011422363Z Debug Updated detailed output file at TOE_2022-05-25_14-01-45_UTC-0_3699d6f5-dc33-11ec-9989-00224820200b/detailedoutput.json
+2022-05-25T14:01:46.011435764Z Debug Executor: Returning success code from step HelloWorldStep
+2022-05-25T14:01:46.011442964Z Debug Executor: FINISHED STEP HelloWorldStep in PHASE test
+2022-05-25T14:01:46.037579249Z Debug Executor: Received exit code Success from step HelloWorldStep
+2022-05-25T14:01:46.037639151Z Debug Executor: Completed phase test
+2022-05-25T14:01:46.037768056Z Debug Updated detailed output file at TOE_2022-05-25_14-01-45_UTC-0_3699d6f5-dc33-11ec-9989-00224820200b/detailedoutput.json
+2022-05-25T14:01:46.037789456Z Debug Executor: FINISHED PHASE test IN DOCUMENT hello-world-linux.yml with final phaseLevelExitCode 0
+2022-05-25T14:01:46.052852024Z Debug Executor: Received exit code Success from phase test
+2022-05-25T14:01:46.052887025Z Debug Executor: Completed execution of document hello-world-linux.yml
+2022-05-25T14:01:46.052978929Z Debug Updated detailed output file at TOE_2022-05-25_14-01-45_UTC-0_3699d6f5-dc33-11ec-9989-00224820200b/detailedoutput.json
+2022-05-25T14:01:46.052988229Z Debug Executor: FINISHED EXECUTION OF DOCUMENT hello-world-linux.yml with final documentLevelExitCode 0
+2022-05-25T14:01:46.067704183Z Debug Executor: Completed execution loop. Entering concluding information...
+2022-05-25T14:01:46.067881690Z Debug Updated detailed output file at TOE_2022-05-25_14-01-45_UTC-0_3699d6f5-dc33-11ec-9989-00224820200b/detailedoutput.json
+2022-05-25T14:01:46.067894491Z Debug Executor: Finished entering concluding information
+2022-05-25T14:01:46.067916991Z Debug Executor: Final executionLevelExitCode 0
+2022-05-25T14:01:46.067926992Z Debug Executor: FINISHED EXECUTION OF ALL DOCUMENTS
+2022-05-25T14:01:46.082936757Z TOE has completed execution successfully
+2022-05-25T14:01:46.082981859Z Debug CLI run: Executor has returned control. ExitCode - 0, Error - <nil>
+2022-05-25T14:01:46.082990359Z Debug CLI run: calling UploadDirectoryToS3Func.
+2022-05-25T14:01:46.083005660Z Debug Utils: UploadDirectoryToS3 sourceDir = TOE_2022-05-25_14-01-45_UTC-0_3699d6f5-dc33-11ec-9989-00224820200b, bucket = , key = TOE_2022-05-25_14-01-45_UTC-0_3699d6f5-dc33-11ec-9989-00224820200b
+2022-05-25T14:01:46.083028761Z Debug Utils: Skipped uploading logs to S3.

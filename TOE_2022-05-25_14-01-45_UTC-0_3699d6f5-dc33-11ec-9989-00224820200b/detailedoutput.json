@@ -1,0 +1,92 @@
+{
+    "executionId": "3699d6f5-dc33-11ec-9989-00224820200b",
+    "status": "success",
+    "startTime": "2022-05-25T14:01:45Z",
+    "endTime": "2022-05-25T14:01:46Z",
+    "failureMessage": "",
+    "documents": [
+        {
+            "name": "Hello World",
+            "filePath": "hello-world-linux.yml",
+            "status": "success",
+            "description": "This is hello world testing document for Linux.",
+            "startTime": "2022-05-25T14:01:45Z",
+            "endTime": "2022-05-25T14:01:46Z",
+            "failureMessage": "",
+            "phases": [
+                {
+                    "name": "build",
+                    "status": "success",
+                    "startTime": "2022-05-25T14:01:45Z",
+                    "endTime": "2022-05-25T14:01:45Z",
+                    "failureMessage": "",
+                    "steps": [
+                        {
+                            "name": "HelloWorldStep",
+                            "status": "success",
+                            "failureMessage": "",
+                            "timeoutSeconds": 7200,
+                            "onFailure": "Abort",
+                            "maxAttempts": 1,
+                            "action": "ExecuteBash",
+                            "startTime": "2022-05-25T14:01:45Z",
+                            "endTime": "2022-05-25T14:01:45Z",
+                            "inputs": "[{\"commands\":[\"echo 'Hello World from the build phase.'\"]}]",
+                            "outputs": "[{\"stdout\":\"Hello World from the build phase.\"}]",
+                            "loop": null,
+                            "detailedOutput": null
+                        }
+                    ]
+                },
+                {
+                    "name": "validate",
+                    "status": "success",
+                    "startTime": "2022-05-25T14:01:45Z",
+                    "endTime": "2022-05-25T14:01:45Z",
+                    "failureMessage": "",
+                    "steps": [
+                        {
+                            "name": "HelloWorldStep",
+                            "status": "success",
+                            "failureMessage": "",
+                            "timeoutSeconds": 7200,
+                            "onFailure": "Abort",
+                            "maxAttempts": 1,
+                            "action": "ExecuteBash",
+                            "startTime": "2022-05-25T14:01:45Z",
+                            "endTime": "2022-05-25T14:01:45Z",
+                            "inputs": "[{\"commands\":[\"echo 'Hello World from the validate phase.'\"]}]",
+                            "outputs": "[{\"stdout\":\"Hello World from the validate phase.\"}]",
+                            "loop": null,
+                            "detailedOutput": null
+                        }
+                    ]
+                },
+                {
+                    "name": "test",
+                    "status": "success",
+                    "startTime": "2022-05-25T14:01:46Z",
+                    "endTime": "2022-05-25T14:01:46Z",
+                    "failureMessage": "",
+                    "steps": [
+                        {
+                            "name": "HelloWorldStep",
+                            "status": "success",
+                            "failureMessage": "",
+                            "timeoutSeconds": 7200,
+                            "onFailure": "Abort",
+                            "maxAttempts": 1,
+                            "action": "ExecuteBash",
+                            "startTime": "2022-05-25T14:01:46Z",
+                            "endTime": "2022-05-25T14:01:46Z",
+                            "inputs": "[{\"commands\":[\"echo 'Hello World from the test phase.'\"]}]",
+                            "outputs": "[{\"stdout\":\"Hello World from the test phase.\"}]",
+                            "loop": null,
+                            "detailedOutput": null
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

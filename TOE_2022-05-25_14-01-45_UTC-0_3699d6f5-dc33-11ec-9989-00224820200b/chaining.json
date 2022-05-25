@@ -1,0 +1,45 @@
+[
+    {
+        "phases": [
+            {
+                "name": "build",
+                "isSelected": true,
+                "steps": [
+                    {
+                        "name": "HelloWorldStep",
+                        "inputs": "[{\"commands\":[\"echo 'Hello World from the build phase.'\"]}]",
+                        "outputs": "[{\"stdout\":\"Hello World from the build phase.\"}]",
+                        "loop": null,
+                        "documents": null
+                    }
+                ]
+            },
+            {
+                "name": "validate",
+                "isSelected": true,
+                "steps": [
+                    {
+                        "name": "HelloWorldStep",
+                        "inputs": "[{\"commands\":[\"echo 'Hello World from the validate phase.'\"]}]",
+                        "outputs": "[{\"stdout\":\"Hello World from the validate phase.\"}]",
+                        "loop": null,
+                        "documents": null
+                    }
+                ]
+            },
+            {
+                "name": "test",
+                "isSelected": true,
+                "steps": [
+                    {
+                        "name": "HelloWorldStep",
+                        "inputs": "[{\"commands\":[\"echo 'Hello World from the test phase.'\"]}]",
+                        "outputs": "[{\"stdout\":\"Hello World from the test phase.\"}]",
+                        "loop": null,
+                        "documents": null
+                    }
+                ]
+            }
+        ]
+    }
+]

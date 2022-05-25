@@ -72,11 +72,17 @@ see [Get started with AWSTOE](https://docs.aws.amazon.com/imagebuilder/latest/us
 awstoe validate --documents hello-world-linux.yml
 
 # run all phases
+# a local directory named `TOE*` is created for the run and includes detailed logs
 awstoe run --documents hello-world-linux.yml
 
 # run single phase
 awstoe run --documents hello-world-linux.yml --phases build
 ```
+
+* a local directory named `TOE*` is created for the run and includes detailed logs
+* see [`TOE_2022-05-25_14-01-45_UTC-0_3699d6f5-dc33-11ec-9989-00224820200b`](TOE_2022-05-25_14-01-45_UTC-0_3699d6f5-dc33-11ec-9989-00224820200b)
+
+![](https://www.evernote.com/l/AAHVWa578E9A9IKjdBoT13JdAYqkfCKNUDAB/image.png)
 
 ---
 

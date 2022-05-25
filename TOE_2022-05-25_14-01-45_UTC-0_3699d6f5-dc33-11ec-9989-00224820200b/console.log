@@ -1,0 +1,52 @@
+2022-05-25T14:01:45.914525413Z Setup: STARTED SETUP
+2022-05-25T14:01:45.914731421Z Setup: Document hello-world-linux.yml is a local path
+2022-05-25T14:01:45.916286379Z Document hello-world-linux.yml
+2022-05-25T14:01:45.916423285Z Phase build
+2022-05-25T14:01:45.916743997Z Step HelloWorldStep
+2022-05-25T14:01:45.917092810Z ExecuteBash: STARTED EXECUTION
+2022-05-25T14:01:45.917170513Z ExecuteBash: Created temporary directory: /tmp/AWSTOE1638342889
+2022-05-25T14:01:45.917215214Z ExecuteBash: Created temporary script file at: /tmp/AWSTOE1638342889/script-271901008.sh
+2022-05-25T14:01:45.917257816Z CmdExecution: Preparing object for command bash with arguments [/tmp/AWSTOE1638342889/script-271901008.sh]
+2022-05-25T14:01:45.917357020Z CmdExecution: Starting execution of command with arguments [bash /tmp/AWSTOE1638342889/script-271901008.sh]
+2022-05-25T14:01:45.919301793Z Stdout: Hello World from the build phase.
+2022-05-25T14:01:45.919422898Z CmdExecution: Terminating read operation on STDOUT pipe - EOF
+2022-05-25T14:01:45.919478700Z CmdExecution: Command execution has been completed
+2022-05-25T14:01:45.919487100Z CmdExecution: Command execution was completed successfully
+2022-05-25T14:01:45.919502201Z CmdExecution: Stderr: 
+2022-05-25T14:01:45.919510201Z CmdExecution: ExitCode 0
+2022-05-25T14:01:45.919518201Z ExecuteBash: Removing temporary directory: /tmp/AWSTOE1638342889
+2022-05-25T14:01:45.919630805Z ExecuteBash: Successfully removed temporary directory: /tmp/AWSTOE1638342889
+2022-05-25T14:01:45.919638906Z ExecuteBash: FINISHED EXECUTION
+2022-05-25T14:01:45.964014377Z Phase validate
+2022-05-25T14:01:45.964477095Z Step HelloWorldStep
+2022-05-25T14:01:45.965075317Z ExecuteBash: STARTED EXECUTION
+2022-05-25T14:01:45.965155420Z ExecuteBash: Created temporary directory: /tmp/AWSTOE4199907993
+2022-05-25T14:01:45.965200222Z ExecuteBash: Created temporary script file at: /tmp/AWSTOE4199907993/script-960168154.sh
+2022-05-25T14:01:45.965237723Z CmdExecution: Preparing object for command bash with arguments [/tmp/AWSTOE4199907993/script-960168154.sh]
+2022-05-25T14:01:45.966001952Z CmdExecution: Starting execution of command with arguments [bash /tmp/AWSTOE4199907993/script-960168154.sh]
+2022-05-25T14:01:45.967998127Z Stdout: Hello World from the validate phase.
+2022-05-25T14:01:45.968025628Z CmdExecution: Terminating read operation on STDOUT pipe - EOF
+2022-05-25T14:01:45.968121232Z CmdExecution: Command execution has been completed
+2022-05-25T14:01:45.968133133Z CmdExecution: Command execution was completed successfully
+2022-05-25T14:01:45.968152633Z CmdExecution: Stderr: 
+2022-05-25T14:01:45.968165934Z CmdExecution: ExitCode 0
+2022-05-25T14:01:45.968179234Z ExecuteBash: Removing temporary directory: /tmp/AWSTOE4199907993
+2022-05-25T14:01:45.968325940Z ExecuteBash: Successfully removed temporary directory: /tmp/AWSTOE4199907993
+2022-05-25T14:01:45.968350941Z ExecuteBash: FINISHED EXECUTION
+2022-05-25T14:01:46.002757137Z Phase test
+2022-05-25T14:01:46.003069949Z Step HelloWorldStep
+2022-05-25T14:01:46.003511765Z ExecuteBash: STARTED EXECUTION
+2022-05-25T14:01:46.003586068Z ExecuteBash: Created temporary directory: /tmp/AWSTOE332682019
+2022-05-25T14:01:46.003641670Z ExecuteBash: Created temporary script file at: /tmp/AWSTOE332682019/script-2970998733.sh
+2022-05-25T14:01:46.003674071Z CmdExecution: Preparing object for command bash with arguments [/tmp/AWSTOE332682019/script-2970998733.sh]
+2022-05-25T14:01:46.003787276Z CmdExecution: Starting execution of command with arguments [bash /tmp/AWSTOE332682019/script-2970998733.sh]
+2022-05-25T14:01:46.010603532Z Stdout: Hello World from the test phase.
+2022-05-25T14:01:46.010762938Z CmdExecution: Terminating read operation on STDOUT pipe - EOF
+2022-05-25T14:01:46.010843141Z CmdExecution: Command execution has been completed
+2022-05-25T14:01:46.010855942Z CmdExecution: Command execution was completed successfully
+2022-05-25T14:01:46.010878843Z CmdExecution: Stderr: 
+2022-05-25T14:01:46.010891543Z CmdExecution: ExitCode 0
+2022-05-25T14:01:46.010907944Z ExecuteBash: Removing temporary directory: /tmp/AWSTOE332682019
+2022-05-25T14:01:46.011080950Z ExecuteBash: Successfully removed temporary directory: /tmp/AWSTOE332682019
+2022-05-25T14:01:46.011091951Z ExecuteBash: FINISHED EXECUTION
+2022-05-25T14:01:46.082970958Z TOE has completed execution successfully
