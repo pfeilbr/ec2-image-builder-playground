@@ -8,7 +8,7 @@ learn [EC2 Image Builder](https://docs.aws.amazon.com/imagebuilder/latest/usergu
 
 ---
 
-## Process
+## Process to Build AMI
 
 1. select base AMI (e.g. amazon linux 2, a custom AMI).  must have SSM agent installed.
 2. select IAM role that is used as instance profile for EC2 build process and test process
@@ -16,8 +16,22 @@ learn [EC2 Image Builder](https://docs.aws.amazon.com/imagebuilder/latest/usergu
   - amazon provided e.g. correto
   - custom - defined via yaml with steps.  e.g. step types - bash, executable
 4. select amazon provided tests or specify own custom tests
-4. specify build schedule - manual, schedule builder, CRON 
-5. specify which regions to publish the resulting ami to
+5. specify build schedule - manual, schedule builder, CRON 
+6. specify which regions to publish the resulting ami to
+
+---
+
+## Process to Build Docker Image
+
+1. select base container image.  e.g. aws maanged images, an image in ECR, docker hub image
+2. select IAM role that is used as instance profile for EC2 build process and test process
+3. select amazon provided build components or specify your own build components
+  - amazon provided e.g. correto
+  - custom - defined via yaml with steps.  e.g. step types - bash, executable
+4. select amazon provided tests or specify own custom tests
+5. specify build schedule - manual, schedule builder, CRON 
+6. specify Dockerfile template
+7. the target ECR repository to store the image
 
 ---
 
